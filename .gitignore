@@ -15,4 +15,3 @@ rebel-remote.xml
 *.rebel-remote.xml.bak
 *.rebel.xml.bak
 *.log
-*/mvnw
