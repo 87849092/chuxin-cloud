@@ -1,10 +1,13 @@
 package com.chuxin.chuxincommon.core.exception;
 
 
+import lombok.Getter;
+
 /**
  * @author 初心
  * @date 2021/8/28 11:36
  */
+@Getter
 public class BaseException extends RuntimeException{
     private static final long serialVersionUID = 1L;
 
@@ -54,21 +57,5 @@ public class BaseException extends RuntimeException{
     public BaseException(String defaultMessage)
     {
         this(null, null, null, defaultMessage);
-    }
-
-    public String getModule() {
-        return module;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public Object[] getArgs() {
-        return args;
-    }
-
-    public String getDefaultMessage() {
-        return defaultMessage;
     }
 }
