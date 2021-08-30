@@ -18,7 +18,7 @@ import java.util.Objects;
 @Component
 public class Knife4jConfig implements SwaggerResourcesProvider {
 
-    public static final String KNIFE4J_URL = "/v2/api-docs";
+    private static final String KNIFE4J_URL = "/v2/api-docs";
     private final RouteLocator routeLocator;
     private final GatewayProperties gatewayProperties;
 
