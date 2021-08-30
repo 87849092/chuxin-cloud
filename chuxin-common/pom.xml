@@ -16,5 +16,13 @@
 
     <modules>
         <module>chuxin-common-core</module>
+        <module>chuxin-common-knife4j</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>

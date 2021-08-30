@@ -63,7 +63,7 @@
             <!-- knife4j 依赖配置 -->
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
-                <artifactId>knife4j-micro-spring-boot-starter</artifactId>
+                <artifactId>knife4j-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
 
@@ -98,6 +98,12 @@
             <dependency>
                 <groupId>com.chuxin</groupId>
                 <artifactId>chuxin-common-core</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.chuxin</groupId>
+                <artifactId>chuxin-common-knife4j</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 

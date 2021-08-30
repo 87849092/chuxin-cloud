@@ -70,6 +70,15 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.chuxin</groupId>
+            <artifactId>chuxin-common-knife4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.chuxin</groupId>
+            <artifactId>chuxin-common-knife4j</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
