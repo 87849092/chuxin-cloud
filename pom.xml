@@ -31,8 +31,9 @@
         <swagger.fox.version>2.9.2</swagger.fox.version>
         <swagger.core.version>1.5.24</swagger.core.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <knife4j.version>2.0.2</knife4j.version>
+        <knife4j.version>2.0.9</knife4j.version>
         <easyexcel.version>2.1.4</easyexcel.version>
+        <swagger.version>1.6.2</swagger.version>
     </properties>
 
     <dependencyManagement>
@@ -62,6 +63,17 @@
             </dependency>
 
             <!-- knife4j 依赖配置 -->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-aggregation-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-micro-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-spring-boot-starter</artifactId>
@@ -116,6 +128,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-models</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
     </dependencies>
 
