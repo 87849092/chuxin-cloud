@@ -16,6 +16,7 @@
     <modules>
         <module>chuxin-gateway</module>
         <module>chuxin-common</module>
+        <module>chuxin-modules</module>
     </modules>
 
     <properties>
