@@ -1,6 +1,7 @@
 package com.chuxin.chuxingateway.handler;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,7 +29,7 @@ public class Knife4jHandler {
     private final SwaggerResourcesProvider swaggerResources;
 
     @Autowired
-    public Knife4jHandler(SwaggerResourcesProvider swaggerResources) {
+    public Knife4jHandler(@Qualifier("knife4jConfig") SwaggerResourcesProvider swaggerResources) {
         this.swaggerResources = swaggerResources;
     }
 
