@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.utils.robot;
+package com.chuxin.common.core.utils.robot;
 
 import okhttp3.*;
 import org.apache.commons.codec.binary.Base64;

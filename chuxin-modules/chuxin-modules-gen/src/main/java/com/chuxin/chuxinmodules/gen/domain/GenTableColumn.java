@@ -1,6 +1,6 @@
 package com.chuxin.chuxinmodules.gen.domain;
 
-import com.chuxin.chuxincommon.core.web.domain.BaseDTO;
+import com.chuxin.common.core.web.domain.BaseDTO;
 import lombok.Getter;
 import lombok.Setter;
 

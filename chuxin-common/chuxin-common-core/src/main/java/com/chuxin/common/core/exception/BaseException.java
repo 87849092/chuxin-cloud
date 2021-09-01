@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.exception;
+package com.chuxin.common.core.exception;
 
 
 import lombok.Getter;

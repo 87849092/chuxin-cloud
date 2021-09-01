@@ -1,6 +1,6 @@
-package com.chuxin.chuxincommon.core.domain;
+package com.chuxin.common.core.domain;
 
-import com.chuxin.chuxincommon.core.constant.Constants;
+import com.chuxin.common.core.constant.Constants;
 import lombok.Getter;
 import lombok.Setter;
 

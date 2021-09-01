@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.utils.robot;
+package com.chuxin.common.core.utils.robot;
 
 import com.alibaba.fastjson.JSONObject;
 

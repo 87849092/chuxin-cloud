@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.constant;
+package com.chuxin.common.core.constant;
 
 /**
  * @author 初心

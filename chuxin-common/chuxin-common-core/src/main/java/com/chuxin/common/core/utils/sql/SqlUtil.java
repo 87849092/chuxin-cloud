@@ -1,7 +1,7 @@
-package com.chuxin.chuxincommon.core.utils.sql;
+package com.chuxin.common.core.utils.sql;
 
-import com.chuxin.chuxincommon.core.exception.BaseException;
-import com.chuxin.chuxincommon.core.utils.StringUtils;
+import com.chuxin.common.core.exception.BaseException;
+import com.chuxin.common.core.utils.StringUtils;
 
 /**
  * @author 初心

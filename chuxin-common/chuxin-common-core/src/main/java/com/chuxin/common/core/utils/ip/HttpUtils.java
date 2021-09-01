@@ -1,7 +1,7 @@
-package com.chuxin.chuxincommon.core.utils.ip;
+package com.chuxin.common.core.utils.ip;
 
 
-import com.chuxin.chuxincommon.core.utils.StringUtils;
+import com.chuxin.common.core.utils.StringUtils;
 import org.apache.commons.collections4.MapUtils;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 

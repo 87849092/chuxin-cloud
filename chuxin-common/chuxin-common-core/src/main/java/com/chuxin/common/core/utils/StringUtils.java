@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.utils;
+package com.chuxin.common.core.utils;
 
 import java.util.*;
 import java.util.regex.Matcher;

@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.web.domain;
+package com.chuxin.common.core.web.domain;
 
 import lombok.Getter;
 import lombok.Setter;

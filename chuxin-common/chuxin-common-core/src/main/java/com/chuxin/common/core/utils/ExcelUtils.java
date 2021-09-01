@@ -1,4 +1,4 @@
-package com.chuxin.chuxincommon.core.utils;
+package com.chuxin.common.core.utils;
 
 /**
  * @author 初心
