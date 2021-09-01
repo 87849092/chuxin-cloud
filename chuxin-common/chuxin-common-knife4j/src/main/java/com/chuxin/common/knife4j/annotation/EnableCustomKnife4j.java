@@ -14,5 +14,6 @@ import java.lang.annotation.*;
 @Documented
 @Inherited
 @Import({ Knife4jConfiguration.class })
+@Deprecated
 public @interface EnableCustomKnife4j {
 }

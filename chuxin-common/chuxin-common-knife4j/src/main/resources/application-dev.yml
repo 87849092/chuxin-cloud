@@ -1,0 +1,12 @@
+knife4j:
+  enableAggregation: true
+  nacos:
+    enable: true
+    serviceUrl: http://${spring.cloud.nacos.discovery.server-addr}/nacos/
+    routes:
+      - name: 测试服务
+        serviceName: chuxin-test
+        location: /v2/api-docs?group=test
+        groupName: DEFAULT_GROUP
+        namespaceId: public
+        servicePath: /test
