@@ -18,6 +18,10 @@
         <module>chuxin-common</module>
         <module>chuxin-modules</module>
         <module>chuxin-test</module>
+        <module>chuxin-admin</module>
+        <module>chuxin-admin</module>
+        <module>admin-server</module>
+        <module>chuxin-admin/admin-server</module>
     </modules>
 
     <properties>
@@ -43,6 +47,7 @@
         <sentinel-datasource.version>1.8.0</sentinel-datasource.version>
         <sentinel-netty.version>1.8.0</sentinel-netty.version>
         <spring-boot.version>2.4.2</spring-boot.version>
+        <spring-boot-admin.version>2.5.1</spring-boot-admin.version>
     </properties>
 
     <dependencies>
@@ -165,6 +170,12 @@
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-models</artifactId>
                 <version>${swagger.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${spring-boot-admin.version}</version>
             </dependency>
 
         </dependencies>
